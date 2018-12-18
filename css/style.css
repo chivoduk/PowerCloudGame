@@ -1,0 +1,721 @@
+@font-face {
+    font-family: 'Neo Sans Pro Bold';
+    src: url('/fonts/NeoSansPro-Bold.eot');
+    src: url('/fonts/NeoSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/NeoSansPro-Bold.woff') format('woff'),
+    url('/fonts/NeoSansPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Proxima Nova Regular';
+    src: url('/fonts/ProximaNova-Regular.eot');
+    src: url('/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ProximaNova-Regular.woff') format('woff'),
+    url('/fonts/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body {
+    background-color: #10112c;
+    background-image: url('/img/bg.png');
+    background-size: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    font-family: 'Proxima Nova Regular', sans-serif;
+}
+
+p{
+    color: #f4f4f5;
+    font-family: 'Proxima Nova Regular', sans-serif;
+}
+h3,
+.h3 {
+    font-family: 'Proxima Nova Regular', sans-serif;
+    color: #04bfc5;
+    margin: 42px auto 0;
+    font-size: 37px;
+    text-align: center;
+}
+body {
+    overflow-x: hidden;
+}
+
+/* -----start header----- */
+.header {
+    padding-bottom: 398px;
+}
+.logo {
+    display: block;
+    margin: 108px auto 0;
+    width: 180px;
+}
+h1,
+.h1{
+    font: 55px 'Neo Sans Pro Bold', sans-serif;
+    margin-top: 60px;
+    text-align: center;
+    color: #00fefd;
+    text-shadow: rgba(0, 254, 255, 0.5) 0 0 40px;
+}
+.com-soon {
+    display: block;
+    width: 407px;
+    height: 80px;
+    margin: 56px auto 0;
+    color: #f4f4f5;
+    background-color: #35c7d8;
+    border-radius: 40px;
+    text-align: center;
+    font: 52px/80px 'Proxima Nova Regular', sans-serif;
+    letter-spacing: 1.6;
+}
+/* ----end header---- */
+
+/* ----start section company */
+
+.company {
+    padding-bottom: 125px;
+}
+
+h2,
+.h2 {
+    width: 100%;
+    font: 55px 'Neo Sans Pro Bold', sans-serif;
+    margin-top: 44px;
+    text-align: center;
+    color: #00fefd;
+    text-shadow: rgba(0, 254, 255, 0.5) 0 0 40px;
+}
+
+.company-img img {
+    width: 549px;
+    margin: 30px 35px 0 0;
+    float: right;
+}
+
+.company-text {
+    margin-left: -25px;
+    padding-top: 41px;
+}
+.company-text p {
+    font-size: 21px;
+    line-height: 38px;
+    padding: 9px 0 0 0;
+    margin-right: -35px;
+}
+
+/* ----end section company---- */
+
+/* ----start section advantages---- */
+.advantages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 0 113px 0;
+}
+
+.advantages h2 {
+    margin-bottom: 54px;
+}
+
+.advantages-item {
+    -webkit-box-flex: 30%;
+        -ms-flex: 30%;
+            flex: 30%;
+    margin-top: 78px;
+    max-width: 300px;
+}
+
+.advantages-item img {
+    display: block;
+    margin: auto;
+}
+
+.advantages-item p {
+    text-align: center;
+    margin-top: 9px;
+    font-size: 17px;
+    line-height: 37px;
+}
+
+.dollar,
+.pause {
+    padding-right: 85px;
+}
+
+.dollar img {
+    width: 76px;
+    margin-top: -3px;
+}
+
+.display img {
+    width: 86px;
+    margin-top: 9px;
+}
+
+.games,
+.clock {
+    padding-left: 85px;
+}
+
+.games p,
+.clock p {
+    margin-right: -25px;
+}
+
+.games img {
+    width: 75px;
+    margin-top: 7px;
+}
+
+.pause img {
+    width: 77px;
+    margin-bottom: -3px;
+}
+
+.stream img {
+    width: 82px;
+    margin-bottom: 13px;
+}
+
+.clock img {
+    width: 76px;
+    margin-bottom: -3px;
+}
+/* ----end section advantages---- */
+
+/* ----start section prices---- */
+.prices-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1160px;
+    margin: auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-radius: 30px;
+}
+
+.price-description {
+    -webkit-box-shadow:  0 1px 30px rgba(0, 0, 0, 0.3);
+            box-shadow:  0 1px 30px rgba(0, 0, 0, 0.3);
+    padding-bottom: 18px;
+}
+
+.price-description div {
+    -webkit-box-flex: 30%;
+        -ms-flex: 30%;
+            flex: 30%;
+}
+
+.price-description div:first-child {
+    padding-right: 60px;
+}
+
+.price-description div:last-child {
+    padding-left: 60px;
+}
+
+.price-description img {
+    margin: 36px auto 0;
+    display: block;
+    width: 85px;
+}
+
+.price-description p {
+    text-align: center;
+    line-height:44px;
+    font-size: 22px;
+}
+
+.tariffs {
+    padding-bottom: 35px;
+    margin-top: 43px;
+}
+
+.tariffs > div {
+    padding-top: 11px;
+}
+
+.tariffs ul {
+    list-style: none;
+}
+
+.tariffs li {
+    margin: 0 0 12px 40px;
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Proxima Nova Regular', sans-serif;
+}
+
+.tariffs li:before {
+    height: 24px;
+    width: 25px;
+    display: block;
+    content: " ";
+    background: url('/img/check.png') no-repeat;
+    background-size: cover;
+    margin: -3px 21px 0 0;
+    float: left;
+}
+
+.tariffs p {
+    margin: 48px 0 0 24px;
+    font-size: 30px;
+}
+
+.tariffs a {
+    display: block;
+    border-radius: 28px;
+    height: 58px;
+    width: 300px;
+    background-color: #a93cca;
+    text-align: center;
+    color: #ffffff;
+    margin: 21px 0 49px 15px;
+    padding-top: 15px;
+    font-size: 21px;
+}
+
+.base {
+    -webkit-box-shadow:  0 1px 40px rgba(0, 0, 0, 0.3);
+            box-shadow:  0 1px 40px rgba(0, 0, 0, 0.3);
+    margin-top: 25px;
+}
+
+.optima {
+    background: url('/img/bg-optima.png') no-repeat;
+    background-size: cover;
+}
+
+.night {
+    background: url('/img/bg-night.png') no-repeat;
+    background-size: cover;
+}
+
+.night ul {
+    margin-right: -75px; 
+}
+
+.full {
+    background: url('/img/bg-full.png') no-repeat;
+    background-size: cover;
+}
+
+/* ----end section prices---- */
+
+/* ----start section test---- */
+
+.test {
+    padding-bottom: 60px;
+}
+
+.test h2,
+.test .h2 {
+    margin-top: 76px;
+}
+
+.test-img img {
+    width: 530px;
+    margin: 36px 0 0 -55px;
+    padding-right: 0;
+}
+
+.test-text {
+    padding-top: 11px;
+}
+.test-text p {
+    font-size: 22px;
+    line-height: 35px;
+    padding: 17px 0 0 2px;
+    margin-right: -20px;
+}
+
+/* ----end section test---- */
+
+/* ----start section contacts---- */
+
+.contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 75px;
+}
+
+.contacts a:hover p {
+    text-decoration: underline;
+}
+
+.contacts .h2 {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+}
+
+.contacts-vk {
+    margin-top: 12px;
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+}
+
+.contacts-vk img {
+    margin: auto;
+    display: block;
+    width: 54px;
+}
+
+.contacts-vk p{
+    text-align: center;
+    font-size: 22px;
+}
+
+.contacts-support {
+    margin-top: 40px;
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+}
+
+.contacts-support a {
+    margin-left: -16px;
+} 
+
+.contacts-support img {
+    width: 52px;
+}
+
+.contacts-support p{
+    display: inline-block;
+    font-size: 21px;
+    text-align: left;
+    line-height: 34px;
+    padding-left: 33px;
+    margin-top: 0;
+}
+.contacts-cooperation {
+    margin-top: 17px;
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+}
+
+.contacts-cooperation a {
+    margin: 0 3px 0 0;
+    float: right;
+}
+
+.contacts-cooperation img {
+    width: 92px;
+    padding-right: 27px;
+}
+
+.contacts-cooperation p{
+    display: inline-block;
+    font-size: 21px;
+    line-height: 35px;
+}
+
+@media (max-width: 1400px) {
+    h1,
+    .h1,
+    h2,
+    .h2,
+    .advantages h2 {
+        font-size: 41px;
+    }
+
+    .container {
+        max-width: 960px;
+    }
+
+    .com-soon {
+        width: 360px;
+        height: 66px;
+        margin: 44px auto 0;
+        font: 46px/68px 'Proxima Nova Regular', sans-serif;
+    }
+    .header {
+        padding-bottom: 200px;
+    }
+    .company-img img {
+        width: 425px;
+    }
+    .company-text p {
+        font-size: 18px;
+        line-height: 29px;
+        padding: 7px 0 0 0;
+        margin-right: -35px;
+    }
+    .company {
+        padding-bottom: 80px;
+    }
+    .advantages-item {
+        margin-top: 0;
+        margin-bottom: 40px;
+        max-width: 35%;
+    }
+    .games, .clock {
+        padding-left: 50px;
+    }
+    .games p, .clock p {
+        margin-right: 0;
+    }
+    .dollar, .pause {
+        padding-right: 50px;
+    }
+    .advantages {
+        padding: 0 0 10px 0;
+    }
+    .price-description div:first-child {
+        padding-right: 0;
+    }
+    .price-description div:last-child {
+        padding-left: 0;
+    }
+    .price-description p {
+        line-height: 32px;
+        font-size: 20px;
+    }
+    .tariffs li {
+        font-size: 17px;
+    }
+    .tariffs p {
+        margin: 42px 0 0 0px;
+        font-size: 25px;
+    }
+    .tariffs a {
+        
+        height: 50px;
+        width: 263px;
+        margin: 25px 0 0 0px;
+        padding-top: 13px;
+        font-size: 19px;
+    }
+    .test-text p {
+        font-size: 18px;
+        line-height: 29px;
+        padding: 17px 0 0 0;
+        margin-right: -20px;
+    }
+    .test-img img {
+        width: 480px;
+        margin: 28px 0 0 -55px;
+    }
+    .contacts-vk p,
+    .contacts-support p,
+    .contacts-cooperation p {
+        font-size: 18px;
+    }
+}
+@media (max-width: 992px) {
+    body {
+        background-size: 200% auto;
+    }
+    .test-img img {
+        width: 400px;
+        margin: 30px 0 0 0px;
+    }
+    .test-text p {
+        margin-right: 0;
+    }
+    .test-text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .contacts-support a {
+        margin-left: 0;
+    }
+    .company-img img {
+        width: 350px;
+        margin-top: 50px;
+    }
+    .advantages-item {
+        max-width: 50%;
+        -webkit-box-flex: 50%;
+            -ms-flex: 50%;
+                flex: 50%;
+    }
+    .dollar, .pause {
+        padding-right: 0;
+    }
+    .games, .clock {
+        padding-left: 0;
+    }
+    .advantages {
+        padding: 0;
+    }
+    .prices-item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        max-width: 100%;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .price-description div {
+        -webkit-box-flex: 100%;
+            -ms-flex: 100%;
+                flex: 100%;
+    }
+    .tariffs p {
+        text-align: center;
+    }
+    .tariffs a {
+        margin: 25px auto 0px;
+    }
+    .contacts-support p,
+    .contacts-cooperation p {
+        display: block;
+        text-align: center;
+    }
+    .contacts-support img,
+    .contacts-cooperation img {
+        display: block;
+        margin: auto;
+    }
+    .contacts-cooperation img {
+        width: 65px;
+        padding-right: 0;
+    }
+    .contacts-support p {
+        padding-left: 0;
+    }
+    .contacts-cooperation a {
+        float: none;
+    }
+}
+@media (max-width: 850px) {
+    .company-img img {
+        width: 314px;
+        margin-top: 92px;
+    }
+    .test-img img {
+        width: 314px;
+        margin-top: 92px;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        background-size: 200% auto;
+    }
+    h1, .h1, h2, .h2, .advantages h2 {
+        font-size: 36px;
+    }
+    .com-soon {
+        width: 350px;
+        height: 61px;
+        margin: 44px auto 0;
+        font: 36px/62px 'Proxima Nova Regular', sans-serif;
+    }
+    .header {
+        padding-bottom: 150px;
+    }
+    .company-img img {
+        width: 200px;
+        margin: 20px auto 0;
+        display: block;
+        float: none;
+    }
+    .company-text p {
+        font-size: 18px;
+        line-height: 29px;
+        padding-top: 7px;
+        margin: 0;
+    }
+    .company-text {
+        padding-top: 41px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .company {
+        padding-bottom: 40px;
+    }
+    .test-img img {
+        width: 200px;
+        margin: 20px auto 0;
+        display: block;
+        float: none;
+    }
+    .test-text p {
+        font-size: 18px;
+        line-height: 29px;
+        padding-top: 7px;
+        margin: 0;
+    }
+    .test-text {
+        padding-top: 41px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .company {
+        padding-bottom: 40px;
+    }
+    .contacts-support,
+    .contacts-cooperation {
+        -webkit-box-flex: 100%;
+            -ms-flex: 100%;
+                flex: 100%;
+    }
+    .contacts-support a,
+    .contacts-cooperation a {
+        margin: auto;
+        float: none;
+    }
+    .night ul {
+        margin-right: 0;
+    }
+    .games img {
+        width: 75px;
+        margin-top: 0;
+    }
+    .display img,
+    .dollar img,
+    .games img,
+    .pause img,
+    .stream img,
+    .clock img {
+        width: auto;
+        height: 60px;
+        margin-top: 9px;
+        margin-top: 0;
+        margin-bottom: 0;  
+    }
+    .tariffs ul {
+        padding-left: 0;
+    }
+    .tariffs li {
+        margin-left: 5px;
+    }
+}
+@media (max-width: 550px) {
+    .advantages-item {
+        -webkit-box-flex: 100%;
+            -ms-flex: 100%;
+                flex: 100%;
+        max-width: 100%;
+    }
+
+}
